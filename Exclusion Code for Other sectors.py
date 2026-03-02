@@ -25,7 +25,6 @@ if uploaded_file:
         "Cluster Munitions": 0,
         "Anti-Personnel Mines": 0,
         "Biological and Chemical Weapons": 0,
-        "Tobacco": 0,
         "Production (Tobacco)": 0,
         "Retail and Distribution (Tobacco)":5,
         "Alcohol": 10,
@@ -207,6 +206,7 @@ if uploaded_file:
         )
 
         st.success("✅ Exclusion process complete! You can now download the results.")
+
 
 
 
