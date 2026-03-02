@@ -27,7 +27,7 @@ if uploaded_file:
         "Biological and Chemical Weapons": 0,
         "Tobacco": 0,
         "Production (Tobacco)": 0,
-        "Retail and Distribution (Tobacco)":0,
+        "Retail and Distribution (Tobacco)":5,
         "Alcohol": 10,
         "Gambling": 5,
         "Adult Entertainment": 5,
@@ -207,5 +207,6 @@ if uploaded_file:
         )
 
         st.success("✅ Exclusion process complete! You can now download the results.")
+
 
 
